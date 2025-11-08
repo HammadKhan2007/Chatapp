@@ -4,7 +4,7 @@ import ChatRoom from "./components/ChatRoom";
 import "./App.css";
 import { io } from "socket.io-client";
 
-const SOCKET_URL = "http://localhost:5050";
+const SOCKET_URL = "https://server-production-1672.up.railway.app";
 
 let socket;
 
